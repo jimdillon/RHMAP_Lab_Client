@@ -67,7 +67,7 @@ document.getElementById('say_hello').onclick = function () {
 };
 ```
 ####After
-```
+```javascript
 document.getElementById('get_temp').onclick = function () {
   var city = document.getElementById('city').value;
   var state = document.getElementById('state').value;
