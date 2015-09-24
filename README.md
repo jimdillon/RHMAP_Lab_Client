@@ -21,17 +21,17 @@ Replace the description text, change the hello_to element to city and add a stat
           <button id="say_hello" type="button" class="say-hello-button">Say Hello From The Cloud</button>
 
 ####After
-          <p id="description">Check the temperature in your favorite city.</p>
-          <br>
+          +<p id="description">Check the temperature in your favorite city.</p>
+          +<br>
 
-          <div class="input-div">
-              <input id="city" type="text" class="input-text" placeholder="City"/>
-              <input id="state" type="text" class="input-text" placeholder="State"/>
-          </div>
+          +<div class="input-div">
+          +    <input id="city" type="text" class="input-text" placeholder="City"/>
+          +    <input id="state" type="text" class="input-text" placeholder="State"/>
+          +</div>
 
-          <br>
+          +<br>
 
-          <button id="get_temp" type="button" class="say-hello-button">Get Temperature</button>
+          +<button id="get_temp" type="button" class="say-hello-button">Get Temperature</button>
 
 * Change the included hello.js file to weather.js
 ####Before
