@@ -47,6 +47,7 @@ Replace the description text, change the hello_to element to city and add a stat
 ### hello.js
 * Rename hello.js to weather.js
 * We want to send the city and state input to our cloud App so modify weather.js to match the changes to your index.html file (Add an input check for good measure.)
+
 ```javascript
 document.getElementById('say_hello').onclick = function () {
   document.getElementById('cloudResponse').innerHTML = "<p>Calling Cloud.....</p>";
@@ -93,7 +94,7 @@ document.getElementById('get_temp').onclick = function () {
       );
     }
   };
-  ```
+```
 
 
 # Grunt
