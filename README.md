@@ -97,7 +97,7 @@ document.getElementById('get_temp').onclick = function () {
 ```
 
 
-# Grunt
+#### Grunt
 
 This template uses [Grunt](http://gruntjs.com/), the Javascript Task Runner. To use Grunt with this Template App, do the following:
 
@@ -106,7 +106,7 @@ This template uses [Grunt](http://gruntjs.com/), the Javascript Task Runner. To 
 * Run ```grunt serve``` to preview this App locally
 
 
-### Local development
+#### Local development
 
 You can also use Grunt to point your App at a local developement server. To do this, use the ```grunt serve:local``` command. Some notes on using the serve:local task:
 
