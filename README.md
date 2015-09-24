@@ -35,9 +35,31 @@ A basic Temperature Checker Hybrid App.
 * Change the included hello.js file to weather.js
 ####Before
           <script src="hello.js"></script>
-##After
+####After
           <script src="weather.js"></script>
 
+### hello.js
+* Rename hello.js to weather.js
+* Modify weather.js to match the changes to your index.html file (Add an input check for good measure.)
+```
+document.getElementById('say_hello').onclick = function () {
+  document.getElementById('cloudResponse').innerHTML = "<p>Calling Cloud.....</p>";
+  $fh.cloud(
+      {
+        path: 'hello',
+        data: {
+          hello: document.getElementById('hello_to').value
+        }
+      },
+      function (res) {
+        document.getElementById('cloudResponse').innerHTML = "<p>" + res.msg + "</p>";
+      },
+      function (code, errorprops, params) {
+        alert('An error occured: ' + code + ' : ' + errorprops);
+      }
+  );
+};
+```
 # Grunt
 
 This template uses [Grunt](http://gruntjs.com/), the Javascript Task Runner. To use Grunt with this Template App, do the following:
