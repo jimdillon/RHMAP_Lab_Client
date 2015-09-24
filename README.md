@@ -9,6 +9,7 @@ A basic Temperature Checker Hybrid App, will take city and state input, and ask 
 Replace the description text, change the hello_to element to city and add a state element, then change the button id and text.
 
 ####Before
+```html
            <p id="description">This is a basic Javascript App that can take in your name, send it to a cloud app and display the response.</p>
           <br>
 
@@ -19,30 +20,34 @@ Replace the description text, change the hello_to element to city and add a stat
           <br>
 
           <button id="say_hello" type="button" class="say-hello-button">Say Hello From The Cloud</button>
-
+```
 ####After
-          +<p id="description">Check the temperature in your favorite city.</p>
-          +<br>
+```html
+          <p id="description">Check the temperature in your favorite city.</p>
+          <br>
 
-          +<div class="input-div">
-          +    <input id="city" type="text" class="input-text" placeholder="City"/>
-          +    <input id="state" type="text" class="input-text" placeholder="State"/>
-          +</div>
+          <div class="input-div">
+              <input id="city" type="text" class="input-text" placeholder="City"/>
+              <input id="state" type="text" class="input-text" placeholder="State"/>
+          </div>
 
-          +<br>
+          <br>
 
-          +<button id="get_temp" type="button" class="say-hello-button">Get Temperature</button>
-
+          <button id="get_temp" type="button" class="say-hello-button">Get Temperature</button>
+```
 * Change the included hello.js file to weather.js
 ####Before
+```html
           <script src="hello.js"></script>
+```
 ####After
+```html
           <script src="weather.js"></script>
-
+```
 ### hello.js
 * Rename hello.js to weather.js
 * We want to send the city and state input to our cloud App so modify weather.js to match the changes to your index.html file (Add an input check for good measure.)
-```
+```javascript
 document.getElementById('say_hello').onclick = function () {
   document.getElementById('cloudResponse').innerHTML = "<p>Calling Cloud.....</p>";
   $fh.cloud(
