@@ -4,8 +4,8 @@ Red Hat Mobile Basic Hybrid app
 A basic Temperature Checker Hybrid App.
 
 ###Take the default 'Hello World' Hybrid App and perform the following steps
-* index.js
-           - Replace the description text, chage the hello_to element to city and add a state element, then change the button id and text.
+###index.js
+* Replace the description text, chage the hello_to element to city and add a state element, then change the button id and text.
 
 ####Before
            <p id="description">This is a basic Javascript App that can take in your name, send it to a cloud app and display the response.</p>
@@ -32,7 +32,7 @@ A basic Temperature Checker Hybrid App.
 
           <button id="get_temp" type="button" class="say-hello-button">Get Temperature</button>
 
-          - Change the included hello.js file to weather.js
+* Change the included hello.js file to weather.js
 ####Before
           <script src="hello.js"></script>
 ##After
