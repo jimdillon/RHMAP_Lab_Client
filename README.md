@@ -7,7 +7,7 @@ A basic Temperature Checker Hybrid App.
 * index.js
            - Replace the description text, chage the hello_to element to city and add a state element, then change the button id and text.
 
-          ##Before
+##Before
 
            <p id="description">This is a basic Javascript App that can take in your name, send it to a cloud app and display the response.</p>
           <br>
@@ -20,7 +20,7 @@ A basic Temperature Checker Hybrid App.
 
           <button id="say_hello" type="button" class="say-hello-button">Say Hello From The Cloud</button>
 
-          ##After
+##After
 
           <p id="description">Check the temperature in your favorite city.</p>
           <br>
