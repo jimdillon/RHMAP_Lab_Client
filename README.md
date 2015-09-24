@@ -1,11 +1,12 @@
 Red Hat Mobile Basic Hybrid app
 ==========================
 
-A basic Temperature Checker Hybrid App.
+A basic Temperature Checker Hybrid App, will take city and state input, and ask the cloud for the current temperature.
 
 ###Take the default 'Hello World' Hybrid App and perform the following steps
 ###index.js
-* Replace the description text, chage the hello_to element to city and add a state element, then change the button id and text.
+* We want the user to know this is an App that gets the temperature of the city they input.
+Replace the description text, change the hello_to element to city and add a state element, then change the button id and text.
 
 ####Before
            <p id="description">This is a basic Javascript App that can take in your name, send it to a cloud app and display the response.</p>
@@ -40,7 +41,7 @@ A basic Temperature Checker Hybrid App.
 
 ### hello.js
 * Rename hello.js to weather.js
-* Modify weather.js to match the changes to your index.html file (Add an input check for good measure.)
+* We want to send the city and state input to our cloud App so modify weather.js to match the changes to your index.html file (Add an input check for good measure.)
 ```
 document.getElementById('say_hello').onclick = function () {
   document.getElementById('cloudResponse').innerHTML = "<p>Calling Cloud.....</p>";
@@ -89,7 +90,7 @@ document.getElementById('get_temp').onclick = function () {
   };
   ```
 
-  
+
 # Grunt
 
 This template uses [Grunt](http://gruntjs.com/), the Javascript Task Runner. To use Grunt with this Template App, do the following:
