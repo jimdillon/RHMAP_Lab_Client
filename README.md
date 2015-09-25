@@ -4,7 +4,7 @@ Red Hat Mobile Basic Hybrid app
 A basic Temperature Checker Hybrid App, will take city and state input, and ask the cloud for the current temperature.
 
 ###Take the default 'Hello World' Hybrid App and perform the following steps
-###index.js
+###index.html
 * We want the user to know this is an App that gets the temperature of the city they input.
 Replace the description text, change the hello_to element to city and add a state element, then change the button id and text.
 
