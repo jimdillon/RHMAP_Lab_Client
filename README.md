@@ -106,3 +106,4 @@ This template uses [Grunt](http://gruntjs.com/), the Javascript Task Runner. To 
 * Install grunt: ```npm install -g grunt-cli```
 * In your App directory, run: ```npm install```. This installs Grunt plugins, etc for use with this App.
 * Run ```grunt serve:local``` to preview this App locally
+  * _If using linux, you made need to run this with sudo_
