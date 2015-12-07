@@ -104,6 +104,6 @@ document.getElementById('get_temp').onclick = function () {
 This template uses [Grunt](http://gruntjs.com/), the Javascript Task Runner. To use Grunt with this Template App, do the following:
 
 * Install grunt: ```npm install -g grunt-cli```
-* In your App directory, run: ```npm install```. This installs the node module listed in the package.json file.
+* In your App directory, run: ```npm install```. This will install the node modules listed in the package.json file.
 * Run ```grunt serve:local``` to run this App locally
   * _If using linux, you made need to run this with sudo_
